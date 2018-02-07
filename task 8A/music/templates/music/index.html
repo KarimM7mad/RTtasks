@@ -1,0 +1,12 @@
+{% extends 'music/baseHTML.html' %}
+{% block body %}
+    <ul>
+        {% for aa in object_list %}
+        <li>
+            <img src="{{aa.albumLogo.url}}" alt="not found image">
+            <a class="btn btn-primary" href="{% url 'music:details' aa.id %}">{{aa.albumTitle}}</a>
+            <a class="btn btn-danger" href="{% url 'music:album-delete' aa.id %}">Delete {{aa.albumTitle}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

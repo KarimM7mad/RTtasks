@@ -1,0 +1,72 @@
+.RightPart {
+    float: right;
+    width: 950px;
+    height: 800px;
+}
+.customTopLeft{
+  text-align: center;
+}
+table{
+  padding-left: 10px;
+}
+p{
+  padding-left: 10px;
+}
+td{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.leftPart {
+    float: left;
+    width: 900px;
+    height: 800px;
+}
+h2{
+  padding-left: 10px;
+}
+.tablee{
+  padding-left: 200px;
+}
+.line {
+  position: absolute;
+  top: 70%;
+  border-bottom: 5px solid blue;
+  display: table-row;
+}
+.linee-container {
+  position: absolute;
+  width: 700px;
+  height: 38px;
+  padding-left: 10px;
+  float: right;
+}
+.text {
+  display: table-row;
+  padding-left: 70px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  color: blue;
+}
+* {box-sizing: border-box;}
+.container {
+  width: 300%;
+  background-color: #ddd;
+  margin: 0px 40px;
+}
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 30px;
+  color: white;
+}
+.td2{
+  padding-left: 280px;
+}
+.php {width: 90%; background-color: blue;}
+.java {width: 90%; background-color: blue;}
+.c {width: 85%; background-color: blue;}
+.android{width: 75%; background-color: blue;}
+.word2{
+  padding-left: 40px;
+}
